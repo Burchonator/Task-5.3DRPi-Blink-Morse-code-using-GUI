@@ -391,8 +391,6 @@ class Window(QWidget):
         GPIO.cleanup()
         self.close()        
 
-# i Need to run a for loop that checks if for each letter in the string
-
 
 app = QApplication(sys.argv) # The QApplication class manages the GUI application’s control flow and main settings.
 screen = Window() # make screen grab class window
